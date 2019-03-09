@@ -2,10 +2,12 @@
 # © 2017 Trustcode
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import fields, models, api
 import json
-import requests
 from unicodedata import normalize
+
+import requests
+
+from odoo import fields, models, api
 from odoo.exceptions import UserError
 
 

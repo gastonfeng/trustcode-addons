@@ -4,10 +4,11 @@
 
 import json
 import re
-from odoo import http
-from odoo.http import request
-from odoo.exceptions import AccessDenied, UserError
 from datetime import datetime, timedelta
+
+from odoo import http
+from odoo.exceptions import AccessDenied, UserError
+from odoo.http import request
 
 
 def cnpj_cpf_format(cnpj_cpf):

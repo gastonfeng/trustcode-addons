@@ -1,9 +1,10 @@
 # Copyright 2018 Tecnativa - Jairo Llopis
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 import logging
-from psycopg2 import IntegrityError
+
 from odoo.addons.module_auto_update.models.module_deprecated import \
     PARAM_DEPRECATED
+from psycopg2 import IntegrityError
 
 _logger = logging.getLogger(__name__)
 

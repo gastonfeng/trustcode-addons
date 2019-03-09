@@ -19,13 +19,14 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 ###############################################################################
-import csv
 import base64
+import csv
 import io
 import sys
+from urllib.request import urlopen
+
 from odoo import models, fields, api
 from odoo.exceptions import Warning
-from urllib.request import urlopen
 
 
 class ProductImageImportWizard(models.TransientModel):

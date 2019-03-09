@@ -8,7 +8,6 @@ import os
 
 from odoo import api, exceptions, models, tools
 from odoo.modules.module import get_module_path
-
 from ..addon_hash import addon_hash
 
 PARAM_INSTALLED_CHECKSUMS = \

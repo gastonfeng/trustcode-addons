@@ -1,11 +1,11 @@
+import base64
+import time
 from datetime import datetime
+
 from odoo import api, fields, models, _
 from odoo.addons import decimal_precision as dp
 from odoo.exceptions import UserError
 from odoo.tools.safe_eval import safe_eval
-
-import time
-import base64
 
 
 class PurchaseMulticompanyReq(models.Model):

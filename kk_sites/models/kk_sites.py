@@ -2,14 +2,16 @@
 # © 2017 Trustcode
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
+import json
+import locale
+import math
+import re
+from datetime import datetime
+
+import requests
+
 from odoo import fields, models, api
 from odoo.exceptions import ValidationError, UserError, RedirectWarning
-import requests
-import json
-from datetime import datetime
-import math
-import locale
-import re
 
 
 class KKSites(models.Model):

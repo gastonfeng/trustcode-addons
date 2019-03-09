@@ -2,8 +2,9 @@
 # © 2018 Trustcode / Adaptado por Augusto D. Lisbôa
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from odoo import models, fields, api
 from lxml.html import document_fromstring
+
+from odoo import models, fields, api
 
 
 class SaleOrderLine(models.Model):

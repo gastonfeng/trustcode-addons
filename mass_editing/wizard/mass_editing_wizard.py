@@ -2,9 +2,8 @@
 # © 2016 Serpent Consulting Services Pvt. Ltd. (support@serpentcs.com)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from lxml import etree
-
 import openerp.tools as tools
+from lxml import etree
 from openerp import api, models
 
 

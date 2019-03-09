@@ -4,10 +4,9 @@
 
 import logging
 
-from odoo.tools import email_split
-
 from odoo import api, fields, models
 from odoo.exceptions import UserError
+from odoo.tools import email_split
 from odoo.tools.translate import _
 
 _logger = logging.getLogger(__name__)

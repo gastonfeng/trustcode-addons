@@ -6,7 +6,6 @@ import mock
 from odoo.modules import get_module_path
 from odoo.modules.registry import Registry
 from odoo.tests.common import TransactionCase
-
 from ..models.module_deprecated import PARAM_DEPRECATED
 
 

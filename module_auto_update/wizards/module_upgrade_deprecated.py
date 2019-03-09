@@ -4,7 +4,6 @@
 import logging
 
 from odoo import api, models
-
 from ..models.module_deprecated import PARAM_DEPRECATED
 
 _logger = logging.getLogger(__name__)

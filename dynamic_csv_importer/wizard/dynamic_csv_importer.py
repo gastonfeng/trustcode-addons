@@ -1,8 +1,9 @@
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError
 import base64
 import csv
 import io
+
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError
 
 
 class DynamicCsvImport(models.TransientModel):

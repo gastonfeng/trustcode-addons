@@ -2,14 +2,14 @@
 # © 2017 Johny Chen Jy, Trustcode
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-import os
-import time
-import socket
 import logging
+import os
+import socket
+import time
+from datetime import datetime, timedelta
 
 from odoo import api, fields, models, _
 from odoo.exceptions import Warning
-from datetime import datetime, timedelta
 
 _logger = logging.getLogger(__name__)
 

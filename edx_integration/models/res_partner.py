@@ -2,11 +2,13 @@
 # © 2018 Fábio Luna, Trustcode
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-import requests
 import json
+import logging
 import random
 import string
-import logging
+
+import requests
+
 from odoo import fields, models, api
 from odoo.exceptions import UserError
 

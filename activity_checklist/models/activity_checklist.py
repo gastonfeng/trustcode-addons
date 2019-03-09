@@ -2,8 +2,10 @@
 # © 2018 Trustcode
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-import pytz
 from datetime import datetime
+
+import pytz
+
 from odoo import models, fields, api
 from odoo.exceptions import UserError
 

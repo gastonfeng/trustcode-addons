@@ -10,7 +10,6 @@ import mock
 from odoo.modules import get_module_path
 from odoo.tests import common
 from odoo.tests.common import TransactionCase
-
 from ..addon_hash import addon_hash
 from ..models.module import IncompleteUpgradeError, DEFAULT_EXCLUDE_PATTERNS
 

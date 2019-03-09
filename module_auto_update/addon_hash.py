@@ -1,9 +1,9 @@
 # Copyright 2018 ACSONE SA/NV.
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
-from fnmatch import fnmatch
 import hashlib
 import os
+from fnmatch import fnmatch
 
 
 def _fnmatch(filename, patterns):

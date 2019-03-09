@@ -4,9 +4,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 
+from datetime import timedelta
+
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError, Warning
-from datetime import timedelta
 
 
 class Royalties(models.Model):
