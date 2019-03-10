@@ -4,3 +4,5 @@
 # © 2016 Alessandro Fernandes Martini, Trustcode
 # License AGPL-3.0 or later (http://gnu.org/licenses/agpl-3.0.html)
 
+from . import stock_inventory
+from . import stock_inventory_import_line
